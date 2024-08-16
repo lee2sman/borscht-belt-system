@@ -11,14 +11,16 @@ System: Void Linux with i3 window manager.
 * cronie (or other cron daemon)
 * i3 window manager
 * caffeine-ng
+* live-server (npm package. if not using npm/node, use the python simpleHTTPServer)
 
 ### Setup
 
-1 Install cronie or other cron daemon, as well as caffeine.
+1 Install cronie (or other cron daemon), caffeine, and the live-server.
 
 ```
 sudo xbps-install -S cronie
 sudo xbps-install -S caffeine-ng
+sudo npm install -g live-server
 ```
 
 2 Set up the crontab.
